@@ -1,8 +1,9 @@
 {
-  "name": "npm-workspaces-example",
+  "name": "sdk",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,10 +16,5 @@
   "bugs": {
     "url": "https://github.com/tutorials-coding/npm-workspaces-example/issues"
   },
-  "homepage": "https://github.com/tutorials-coding/npm-workspaces-example#readme",
-  "workspaces": [
-    "packages/components",
-    "packages/app",
-    "packages/api"
-  ]
+  "homepage": "https://github.com/tutorials-coding/npm-workspaces-example#readme"
 }
